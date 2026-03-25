@@ -1,23 +1,42 @@
-DISASTER RESPONSE LOGISTICS — quick run for presentation
-========================================================
+# Vanguard Response
 
-Folder: disaster_aid_system
+## Overview
 
-Fastest way (Windows):
-  Double-click RUN.bat
+Vanguard Response is a disaster management system that simulates emergency response using efficient graph-based algorithms. It focuses on optimizing rescue operations, routing, and resource allocation.
 
-Or from command line:
-  cd disaster_aid_system
-  javac *.java
-  java MainSystem
+## Features
 
-Presentation tip:
-  Choose menu option 9 "GUIDED DEMO" first — it walks through nodes, roads,
-  shortest path, max flow, then a blocked road, in about two minutes.
+* Graph-based modeling of locations and routes
+* Shortest path using Dijkstra’s Algorithm
+* Resource allocation using Max Flow
+* Console-based simulation system
 
-Files:
-  MainSystem.java  — menu + welcome + guided demo
-  Graph.java       — Dijkstra, max flow, block/restore roads
-  Node.java, Edge.java, Logger.java, ConsoleUi.java
+## Tech Stack
 
-Requires: JDK 11 or newer (JDK 17+ recommended) for this source style.
+* Java
+* Graph Data Structures
+* Algorithmic Optimization
+
+## How to Run
+
+1. Clone the repository
+
+   ```bash
+   git clone https://github.com/prajjwalrana11/Vanguard_Response.git
+   ```
+2. Compile and run
+
+   ```bash
+   javac Main.java
+   java Main
+   ```
+
+## Future Scope
+
+* GUI integration
+* Real-time data simulation
+* Map-based visualization
+
+## Author
+
+Codigo Supremo
